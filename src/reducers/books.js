@@ -6,9 +6,12 @@ const initialState = [];
 function booksReducer(state = initialState, action) {
   switch (action.type) {
     case CREATE_BOOK:
-      return [];
+      return [
+        ...state,
+        action.book,
+      ];
     case REMOVE_BOOK:
-      return [];
+      return state.filter(book => book.id !== action.book.id);
     default:
       return state;
   }
