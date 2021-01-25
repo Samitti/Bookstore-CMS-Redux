@@ -28,8 +28,15 @@ function BooksList({
   return (
     <div>
       <div className="navBar">
-        <h1>Bookstore CMS</h1>
-        <CategoryFilter category={category} handleCategory={handleCategory} />
+        <div className="filterBar">
+          <h1>Bookstore CMS</h1>
+          <CategoryFilter category={category} handleCategory={handleCategory} />
+        </div>
+        <div>
+          <div className="profile-img">
+            Me
+          </div>
+        </div>
       </div>
       <div className="Books-list">
         {bookList}

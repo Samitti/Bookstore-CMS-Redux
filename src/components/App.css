@@ -9,11 +9,29 @@
 
 .navBar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.filterBar {
+  display: flex;
   align-items: center;
   padding-left: 100px;
   padding-top: 29px;
   padding-bottom: 29px;
-  background-color: white;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+  background-image: url("../user-icon.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1px;
+  cursor: pointer;
 }
 
 .navBar h1 {
@@ -37,7 +55,6 @@
   width: 60px;
   height: 60px;
   font-size: 1px;
-  background-color: greenyellow;
   margin-right: 30px;
   background-image: url("../percentile.PNG");
   background-position: center;
