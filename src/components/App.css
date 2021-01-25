@@ -195,6 +195,14 @@
   flex-direction: column;
 }
 
+.completed-percentage .percentage {
+  font-size: 32px;
+}
+
+.completed-percentage .completed {
+  font-size: 14px;
+}
+
 .title-percentile {
   display: flex;
   justify-content: space-between;

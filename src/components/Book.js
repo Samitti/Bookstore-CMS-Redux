@@ -21,11 +21,11 @@ function Book({ book, handleRemoveBook }) {
                 %
               </div>
               <div className="completed-percentage">
-                <span>
+                <span className="percentage">
                   {book.id}
                   %
                 </span>
-                <span>Completed</span>
+                <span className="completed">Completed</span>
               </div>
             </div>
           </div>
