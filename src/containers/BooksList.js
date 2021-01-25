@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Book from '../components/Book';
 import { removeBook, changeFilter } from '../actions/index';
 import CategoryFilter from '../components/CategoryFilter';
+import '../components/App.css';
 
 function BooksList({
   books, removeBook, newCategory, category,
@@ -26,19 +27,13 @@ function BooksList({
   ));
   return (
     <div>
-      <CategoryFilter category={category} handleCategory={handleCategory} />
-      <table className="Books-list">
-        <thead>
-          <tr>
-            <th>Book ID</th>
-            <th>Book Title</th>
-            <th>Book Category</th>
-          </tr>
-        </thead>
-        <tbody>
-          {bookList}
-        </tbody>
-      </table>
+      <div className="navBar">
+        <h1>Bookstore CMS</h1>
+        <CategoryFilter category={category} handleCategory={handleCategory} />
+      </div>
+      <div className="Books-list">
+        {bookList}
+      </div>
     </div>
   );
 }
