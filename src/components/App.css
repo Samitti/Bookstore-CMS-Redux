@@ -100,9 +100,9 @@
 
 .bookPannel {
   width: 100%;
-  height: 150px;
+  height: 130px;
   margin-top: 37px;
-  padding: 32px 27px 26px 27px;
+  padding: 25px 27px 26px 27px;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: #fff;
@@ -132,6 +132,8 @@
   font-size: 19px;
   padding-left: 17px;
   margin-bottom: 200px;
+  color: #888;
+  border: 1px solid rgb(187, 186, 186);
 }
 
 #category {
@@ -140,6 +142,8 @@
   height: 46px;
   font-size: 19px;
   padding-left: 17px;
+  color: rgb(148, 148, 148);
+  border: 1px solid rgb(187, 186, 186);
 }
 
 #addBtn {
@@ -159,13 +163,13 @@
 }
 
 .book-cat {
-  width: 728px;
+  width: 800px;
 }
 
 .book-percentile {
   display: flex;
   padding-right: 50px;
-  margin-right: 30px;
+  margin-right: 50px;
   border-right: 2px solid #e8e8e8;
 }
 
@@ -189,6 +193,10 @@
   background-color: #0290ff;
   color: white;
   border: none;
+}
+
+.left-pannel {
+  width: 800px;
 }
 
 #remobe-book-btn {
@@ -231,7 +239,7 @@
   display: flex;
   justify-content: space-between;
   height: 60px;
-  width: 728px;
+  width: 800px;
   margin-top: 10px;
   margin-bottom: 20px;
 }

@@ -10,7 +10,7 @@ function Book({ book, handleRemoveBook }) {
         <span className="catChapter-chap">CURRENT CHAPTER</span>
       </div>
       <div className="title-update">
-        <div>
+        <div className="left-pannel">
           <div className="title-percentile">
             <div className="title-author">
               <span className="book-title">{ book.title }</span>
@@ -18,7 +18,7 @@ function Book({ book, handleRemoveBook }) {
             </div>
             <div className="book-percentile">
               <div className="progress-bar">
-                %
+                progress
               </div>
               <div className="completed-percentage">
                 <span className="percentage">
