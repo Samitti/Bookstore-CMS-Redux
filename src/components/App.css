@@ -99,9 +99,9 @@
 }
 
 .bookPannel {
-  width: 100%;
+  width: 90%;
   height: 130px;
-  margin-top: 37px;
+  margin: 20px auto;
   padding: 25px 27px 26px 27px;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
@@ -246,7 +246,7 @@
 
 @media only screen and (max-width: 1360px) {
   .bookPannel {
-    width: 1130px;
+    width: 1030px;
   }
 
   .navBar {
