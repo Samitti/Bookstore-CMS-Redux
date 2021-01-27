@@ -17,7 +17,11 @@ This project is part of React/Redux program. In this project I build a simple Bo
 [Live Demo Link](https://magic-book-sami.herokuapp.com/)
 
 
+<<<<<<< HEAD
 ![screenshot 1](./src/screenshot.PNG)
+=======
+![screenshot](./src/screenshot.PNG) 
+>>>>>>> 5f44dbb529b66740354fc8307d23de3b3011886f
 
 ## Getting Started
 
