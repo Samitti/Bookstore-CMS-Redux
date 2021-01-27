@@ -1,6 +1,6 @@
 # Magic Books
 
-This project is part of React/Redux program. In this project I build a simple app for Magic Books company.This project was bootstrapped with Create React App.
+This project is part of React/Redux program. In this project I build a simple Bookstore app for Magic Books company.This project was bootstrapped with Create React App.
 
 ## Built With
 
@@ -15,6 +15,9 @@ This project is part of React/Redux program. In this project I build a simple ap
 
 
 [Live Demo Link](https://magic-book-sami.herokuapp.com/)
+
+
+![screenshot 1](./src/screenshot.PNG)
 
 ## Getting Started
 
