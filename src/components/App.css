@@ -109,9 +109,9 @@
 }
 
 .form-fild {
-  width: 1180px;
+  width: 85%;
   padding-top: 20px;
-  margin: 37px 100px 0;
+  margin: 37px 100px 50px;
   border-top: 2px solid #e8e8e8;
 }
 
@@ -127,17 +127,17 @@
 }
 
 #title {
-  width: 616px;
+  width: 50%;
   height: 46px;
   font-size: 19px;
   padding-left: 17px;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
   color: #888;
   border: 1px solid rgb(187, 186, 186);
 }
 
 #category {
-  width: 285px;
+  width: 200px;
   margin-left: 34px;
   height: 46px;
   font-size: 19px;
@@ -239,7 +239,7 @@
   display: flex;
   justify-content: space-between;
   height: 60px;
-  width: 800px;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 20px;
 }
