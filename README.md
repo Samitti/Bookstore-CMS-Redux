@@ -13,8 +13,9 @@ This project is part of React/Redux program. In this project I build a simple Bo
 - ES6
 - CSS
 
+[Live Demo Link Netlify](https://samitti-bookstore-cms-react-redux.netlify.app/)
 
-[Live Demo Link](https://magic-book-sami.herokuapp.com/)
+[Live Demo Link Heroku](https://magic-book-sami.herokuapp.com/)
 
 
 ![screenshot 1](./src/screenshot.PNG)
